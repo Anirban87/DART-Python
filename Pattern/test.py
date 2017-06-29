@@ -97,8 +97,6 @@ os.remove("log.txt")
 os.remove("EGFD_WO_1_TimeLog_log.csv")
 os.remove("EGFD_WO_1_TimeLog_data.csv")
 
-
-
 with open('C:\\Users\AM0C70368\python_projects\Pattern\EGFD_WO_1_TimeLog_1.csv') as infile, open('EGFD_WO_1_TimeLog.csv', 'w') as outfile:
     for line in infile:
         if not line.strip(): continue
